@@ -54,6 +54,13 @@ export default function App() {
         <h1>React + Three.js + GSAP + Lenis</h1>
         <p>Nuxt/Vue 版本的 React 移植 demo</p>
       </section>
+
+      <section className="section">
+        <p className="reveal">
+          这段文字在滚动进入视口时，由 GSAP ScrollTrigger 触发淡入+上移动画，
+          滚动本身由 Lenis 接管做惯性平滑。
+        </p>
+      </section>
     </div>
   );
 }
