@@ -46,5 +46,9 @@ export default function App() {
     return () => ctx.revert();
   }, []);
 
-  return null;
+  return (
+    <div ref={containerRef}>
+      <Scene />
+    </div>
+  );
 }
