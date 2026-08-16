@@ -49,6 +49,11 @@ export default function App() {
   return (
     <div ref={containerRef}>
       <Scene />
+
+      <section className="hero">
+        <h1>React + Three.js + GSAP + Lenis</h1>
+        <p>Nuxt/Vue 版本的 React 移植 demo</p>
+      </section>
     </div>
   );
 }
