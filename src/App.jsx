@@ -61,6 +61,13 @@ export default function App() {
           滚动本身由 Lenis 接管做惯性平滑。
         </p>
       </section>
+
+      <section className="section">
+        <p className="reveal">
+          背景的 WebGL 画布来自 Scene.jsx，使用 Three.js 自定义 shader
+          做流体波动效果，会随鼠标移动产生形变。
+        </p>
+      </section>
     </div>
   );
 }
